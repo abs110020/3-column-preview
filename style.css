@@ -1,0 +1,75 @@
+
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --darkcyan: hsl(179, 100%, 13%);
+    --white: hsla(0, 0%, 100%, 0.75);
+     --gray: hsl(0, 0%, 95%);
+}
+body{
+    display :  flex;
+    justify-content: center;
+    align-items: center;
+
+}.outerContainer {
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    max-width: 50%; 
+
+}
+
+a{
+
+    margin: 0 auto;
+    width:30%;
+    background-color: var(--darg-gray-blue);
+    padding: 1rem 8rem;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    align-items: center;
+
+}
+
+img{
+    width: 50px;
+    height: 30px;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    padding-left: 5%;
+    color : var(--white);
+   padding-top: 5%;
+}
+
+.sedan{
+    background-color: var(--orange);
+    border-radius: 2% 0 0 2%;
+    
+}
+.sedan button {
+    color:var(--orange);
+}
+.suv{
+    background-color: var(--cyan);
+}
+.lux{
+    background-color: var(--darkcyan);
+    border-radius: 0% 2% 2% 0%;
+}
+
+button{
+    max-width: 40%;
+    box-align:center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: var(white);
+}
